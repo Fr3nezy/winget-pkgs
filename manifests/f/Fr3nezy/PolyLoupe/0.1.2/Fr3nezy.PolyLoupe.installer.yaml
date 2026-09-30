@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+PackageIdentifier: Fr3nezy.PolyLoupe
+PackageVersion: 0.1.2
+InstallerType: inno
+Scope: machine
+InstallModes:
+  - interactive
+  - silent
+UpgradeBehavior: install
+FileExtensions:
+  - glb
+  - gltf
+  - fbx
+  - obj
+  - stl
+  - ply
+  - 3mf
+  - dae
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/Fr3nezy/polyloupe/releases/download/v0.1.2/PolyLoupe-Setup-0.1.2.exe
+    InstallerSha256: B001964146D6EA1E635775D08C44A1D3FEC629C020BDCD1E7EE3015BD23C0A56
+ManifestType: installer
+ManifestVersion: 1.6.0
